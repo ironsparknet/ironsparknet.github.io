@@ -1,0 +1,58 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Now:wght@600&display=swap');
+
+:root {
+    --primary-color: #FFA533;
+}
+
+body{
+    font-size: 16px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif !important;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+/* Navbar styles */
+
+.app-mat-toolbar{
+    width: 100%;
+    background: #000;
+}
+
+.app-mat-toolbar-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0.6rem 1rem;
+}
+
+.navbar-logo, .navbar-logo:hover{
+    font-family: 'Now', sans-serif;
+    font-weight: 600;
+    color:#fff !important;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.navbar-cta{
+    background: #222;
+    color: #fff;
+}
+
+.navbar-cta:hover{
+    background: #333;
+}
+
+/* Navbar styles */
+    
