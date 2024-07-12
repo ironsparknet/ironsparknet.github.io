@@ -8,10 +8,6 @@ Odoo, a popular open-source ERP system, effectively manages various business pro
 
 ![Photo taken of an Odoo’s billboard in Nashville by a LinkedIn user.](https://h7g4rb6t8u7i.blob.core.windows.net/blog/yc5gjpu8wwnh.png)
 
-<div class="source">
-Photo taken of an Odoo’s billboard in Nashville by a LinkedIn user.
-</div>
-
 To perform this comparison accurately, we need to determine the minimum hardware requirements necessary to deploy our platform on Amazon AWS and support 40 users effectively. Odoo does not provide specific minimum hardware requirements, likely due to the complexity and variability involved in such calculations. However, some experienced members of the Odoo community have shared insights from their own deployments. Based on their experiences, they have successfully managed a similar workload using an instance with 4 vCPUs, 16 GB of RAM, and 1 TB of SSD storage. Using the Amazon AWS Price Calculator and the previous mentioned specifications, we can obtain the following estimate:
 
 ![Amazon AWS Estimate Details](https://h7g4rb6t8u7i.blob.core.windows.net/blog/6798995g56zg.png)
