@@ -8,6 +8,7 @@
 
 body{
     font-size: 16px !important;
+    color: #000;
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -20,6 +21,7 @@ button {
     border-radius: 40px;
     cursor: pointer;
 }
+
 
 /* Navbar styles */
 
@@ -54,5 +56,18 @@ button {
     background: #333;
 }
 
-/* Navbar styles */
+/* Content Styles */
     
+.post-content img {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+.slinks a, .slinks a:hover{
+    font-size: 0.8rem;
+    text-decoration: none;
+    display: block;
+    line-height: 1.5rem;
+
+}
