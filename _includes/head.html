@@ -1,5 +1,46 @@
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/main.css">
-<link rel="stylesheet" href="/assets/custom.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/assets/custom.css">
+
+  <script>
+    var floatWindowStatus = 'closed';
+    window.$zoho = window.$zoho || {}; $zoho.salesiq = $zoho.salesiq || {
+      ready: function () {
+
+        const minchatBtn = document.querySelector('.min-chat-btn');
+
+        $zoho.salesiq.floatbutton.visible("hide");
+
+        $zoho.salesiq.floatwindow.open(function () {
+          minchatBtn.style.display = 'block';
+          floatWindowStatus = 'open';
+        });
+        $zoho.salesiq.floatwindow.close(function () {
+          minchatBtn.style.display = 'none';
+          floatWindowStatus = 'closed';
+        });
+        $zoho.salesiq.floatwindow.minimize(function () {
+          console.log("minimized");
+        });
+
+      }
+    }
+    function contactUs() {
+      // Check the floatWindowStatus before performing an action
+      if (floatWindowStatus === 'closed') {
+        floatWindowStatus = 'open'; // Update status
+        $zoho.salesiq.floatwindow.open(); // Open the float window
+      } else if (floatWindowStatus === 'open') {
+        floatWindowStatus = 'closed'; // Update status
+        $zoho.salesiq.floatwindow.close();
+      }
+      // Add conditions for 'minimized' or other statuses if needed
+    }
+  </script>
+
+  <script id="zsiqscript"
+    src="https://salesiq.zohopublic.com/widget?wc=siq940f21ce9f455f49f32bf21ad63575ea6acedaac707b105f94c4c4da01bac6ff"
+    defer>
+    </script>
 </head>

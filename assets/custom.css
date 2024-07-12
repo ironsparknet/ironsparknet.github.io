@@ -142,3 +142,18 @@ button {
         gap: 2rem;
     }
 }
+
+/* Minimize Styles */
+.min-chat-btn {
+    position: fixed;
+    bottom: 0; /* Adjust as needed */
+    right: 0; /* Adjust as needed */
+    z-index: 100; /* Ensures it stays above other content */
+    background-color: var(--primary-color);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 0.4rem 0 0 0;
+    display: none;
+}
