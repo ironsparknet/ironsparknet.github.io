@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Much Does It Cost to Run Odoo ERP with 40 Employees?"
-categories: it
+categories: saas
 ---
 Odoo, a popular open-source ERP system, effectively manages various business processes like CRM, accounting, inventory, and operations, known for its flexibility, scalability, and affordability. Potential users often inquire about the cost of running the software, which varies based on the number of users, hosting options, and required customizations. We will discover the expenses associated with operating Odoo for 40 users, comparing the costs of Odoo Standard Plan vs a self-hosted alternative using Amazon AWS.
 <!--more-->
@@ -26,13 +26,16 @@ In summary, Odoo's competitive pricing has contributed significantly to its rapi
 
 Choosing between Odoo's Standard Plan and a self-hosted setup on Amazon AWS involves balancing cost savings against potential limitations. Opting for self-hosting can save nearly 68%, but it requires giving up customer support and access to many apps, with possible higher costs as user numbers grow. In contrast, Odoo's Standard Plan offers predictable costs and comprehensive support, ensuring stability and scalability managed by Odoo themselves. The best choice depends on considering budget, support needs, future growth plans, and crucially, technical expertise required to set up and maintain your own infrastructure and security.
 
-<div class="slinks" markdown="1">
+## Sources
+<div class="sources" markdown="1">
+Van, Y. (2023). Hardware Requirements for Odoo?. Odoo Forum.]Retrieved from https://www.odoo.com/forum/help-1/hardware-requirements-for-odoo-216576
 
-### Sources
-[Van, Y. (2023). Hardware Requirements for Odoo?. Odoo Forum.](https://www.odoo.com/forum/help-1/hardware-requirements-for-odoo-216576)
-[Odoo. (2024). Pricing Plans.](https://www.odoo.com/pricing-plan)
-[Odoo. (2024). Compare Editions.](https://www.odoo.com/page/editions)
-[Zoho. (2024). Zoho One Pricing.](https://www.zoho.com/one/pricing)
-[Vaishnani, B. (2022). Odoo billboard in Nashville. LinkedIn](https://www.linkedin.com/posts/bhoomi-vaishnani-16125458_odooerp-odoo-odoodevelopment-activity-6932092240001441792-eYl-)
+Odoo. (2024). Pricing Plans. Retrieved from https://www.odoo.com/pricing-plan
+
+Odoo. (2024). Compare Editions. Retrieved from https://www.odoo.com/page/editions
+
+Zoho. (2024). Zoho One Pricing.Retrieved from https://www.zoho.com/one/pricing
+
+Vaishnani, B. (2022). Odoo billboard in Nashville. LinkedIn. Retrieved from https://www.linkedin.com/posts/bhoomi-vaishnani-16125458_odooerp-odoo-odoodevelopment-activity-6932092240001441792-eYl-
 
 </div>

@@ -61,19 +61,34 @@ button {
 }
 
 /* Content Styles */
+
+.post-content h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.post-content h3 {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.post-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
     
 .post-content img {
     width: 95%;
-    margin: auto;
+    margin: 1.5rem auto;
     display: block;
 }
 
-.slinks a, .slinks a:hover{
-    font-size: 0.8rem;
-    text-decoration: none;
-    display: block;
-    line-height: 1.5rem;
-
+.post-content .sources p{
+    font-size: 0.7rem !important;
+    line-height: 1rem;
 }
 
 /* Footer Styles */
