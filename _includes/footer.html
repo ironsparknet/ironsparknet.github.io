@@ -1,8 +1,12 @@
+<button id="openModal" class="footer-cta">Free IT Consultation</button>
+
+
+
 <div class="footer">
     <div class="footer-wrapper">
         <div class="footer-container-left">
-            <img src="https://h7g4rb6t8u7i.blob.core.windows.net/www/ironspark-logo-square.png"
-                alt="Iron Spark Logo" width="65px">
+            <img src="https://h7g4rb6t8u7i.blob.core.windows.net/www/ironspark-logo-square.png" alt="Iron Spark Logo"
+                width="65px">
             <div class="footer-container-left-text">
                 <h1>Iron Spark, LLC</h1>
                 <p>Albuquerque, NM</p>
@@ -48,6 +52,37 @@
         </div>
     </div>
 </div>
+
+
 <button class="min-chat-btn" onClick="contactUs()">
     Minimize Chat
 </button>
+
+<div id="myModal" class="modal">
+    <div id="iframeContainer" class="modal-content">
+    </div>
+</div>
+
+
+<script>
+    // Get modal element
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("openModal");
+
+    // When the user clicks the button, open the modal and insert the iframe
+    btn.onclick = function () {
+        document.body.style.overflow = 'hidden';
+        modal.style.display = "flex";
+        document.getElementById("iframeContainer").innerHTML = '<iframe src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3gM6eJlqGjZLOwAUNfeRu2Msln-oDs4HeWhQznAbggu_0FxIplx-pTezV75-hctRdmRLTt7gGh" width="100%" height="400px"></iframe>';
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+            document.body.style.overflow = 'auto';
+        }
+    }
+</script>
